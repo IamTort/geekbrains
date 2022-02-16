@@ -70,3 +70,4 @@ print("Введите годовой процент по вкладу")
 func isStringDigit(str:String)->Bool{
     return !str.isEmpty && str.rangeOfCharacter(from: CharacterSet.decimalDigits.inverted) == nil
 }
+//123
